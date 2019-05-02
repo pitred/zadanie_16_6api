@@ -22,6 +22,8 @@
   "author": "Piotr Nowinski",
   "license": "ISC",
   "devDependencies": {
+    "superagent": "^5.0.5",
+    "tar": "^4.4.8",
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.5",
     "globstar": "^1.0.0",
