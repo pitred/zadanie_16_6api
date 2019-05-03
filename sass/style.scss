@@ -1,2 +1,28 @@
 @import 'normalize';
 @import 'variables';
+
+body {
+    background-color: $bg-color;
+    padding-left: 20px;
+
+    button,
+    input {
+        border-radius: 10px;
+        padding: 7px;
+        background-color: $btn-color;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    input {
+        color: $input-color;
+    }
+
+    li {
+        font-size: 1.3rem;
+        font-weight: bold;
+        line-height: 30px;
+        color: $countries-color;
+    }
+}
